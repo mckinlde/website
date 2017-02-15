@@ -1,0 +1,214 @@
+body {
+  background-color: #3B3738;
+  color: #FDF3E7;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  text-align: center;
+  padding: 0;
+}
+
+form {
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: inherit;
+  /* To see the outline of the form */
+  padding: 1em;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* To make sure that all labels have the same size and are properly aligned */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+  /* To make sure that all text fields have the same font settings
+  By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* To give the same size to all text fields */
+  width: inherit;
+  box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  /* To give a little highlight on active elements */
+  border-color: #000;
+}
+
+textarea {
+  /* To properly align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 5em;
+}
+
+.button {
+  /* To position the buttons to the same position of the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+  between the labels and their text fields */
+  margin-left: .5em;
+}
+h1 {
+  font-size: 60px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1_left {
+  font-size: 60px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+h1 span {
+  display: block;
+  font-size: 50%;
+}
+h2 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h2_left {
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: left;
+}
+h3 {
+  margin-top: 2px;
+  margin-bottom: 4px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+h3_left {
+  margin-top: 2px;
+  margin-bottom: 4px;
+  margin-left: 1px;
+  margin-right: 1px;
+  text-align: left;
+}
+
+a, a:visited, a:hover, a:active {
+  color: #4A96AD;
+}
+
+.comic {
+  max-width: 826px;
+  margin: 24px auto 0;
+}
+.scene {
+  width: 250px;
+  height: 250px;
+  border: 3px solid black;
+  background: white;
+  margin: 8px;
+  display: inline-block;
+  position: relative;
+}
+.scene img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.caption {
+  padding: 10px;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: #7D1935;
+  text-align: left;
+  top: 0;
+}
+.caption.bottom {
+  bottom: 0;
+  top:auto;
+  border-top: 2px solid black;
+}
+.caption.top {
+  top: 0;
+  border-bottom: 2px solid black;
+}
+}
+
+.frame {
+  max-width: 826px;
+  margin: 24px auto 0;
+}
+.slot {
+  border: 3px solid black;
+  background: #7D1935;
+  margin: auto;
+  display: inline-block;
+  position: relative;
+}
+.slot img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+}
+
+
+#bar
+{
+  background-image:url(bar.png);
+  background-repeat:no-repeat;
+  height:53px;
+  width:750px;
+  padding-bottom:15px;
+  text-align:center;
+  margin:0 auto 0 auto;
+}
+
+#bar ul {
+  margin: 0px auto 0px auto;
+  padding: 0px;
+  list-style-type: none;
+  height: 74px;
+  text-align:center;
+}
+#bar ul li , #bar ul li a, #bar ul li a:visited{
+  margin: 0px;
+  padding: 0px;
+  height: 30px;
+  overflow: hidden;
+  display: inline;
+  text-align:center;
+  line-height:65px;
+  color:#26476E;
+  padding-left:6px;
+  padding-right:6px;
+}
+
+#bar ul li a:hover
+{
+  color:#000000;
+  text-decoration:underline;
+
+}
